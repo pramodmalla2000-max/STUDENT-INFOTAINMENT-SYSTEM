@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*/node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production builds
+dist/
+*/dist/
+build/
+*/build/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+server/.env
+client/.env
+
+# Uploads & User Generated Files
+uploads/*
+!uploads/.gitkeep
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs and Scratch
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+scratch/
+.DS_Store
+Thumbs.db
+
+# System generated
+.system_generated/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
